@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20324FE1E292E7C0092B6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20324FD1E292E7C0092B6F1 /* AppDelegate.swift */; };
+		A20325001E292E7C0092B6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20324FF1E292E7C0092B6F1 /* ViewController.swift */; };
+		A20325031E292E7C0092B6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20325011E292E7C0092B6F1 /* Main.storyboard */; };
+		A20325051E292E7C0092B6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20325041E292E7C0092B6F1 /* Assets.xcassets */; };
+		A20325081E292E7C0092B6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20325061E292E7C0092B6F1 /* LaunchScreen.storyboard */; };
+		A20325131E292E7C0092B6F1 /* Lucas_RobertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20325121E292E7C0092B6F1 /* Lucas_RobertTests.swift */; };
+		A203251E1E292E7C0092B6F1 /* Lucas_RobertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203251D1E292E7C0092B6F1 /* Lucas_RobertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A203250F1E292E7C0092B6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20324F21E292E7C0092B6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20324F91E292E7C0092B6F1;
+			remoteInfo = "Lucas Robert";
+		};
+		A203251A1E292E7C0092B6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20324F21E292E7C0092B6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20324F91E292E7C0092B6F1;
+			remoteInfo = "Lucas Robert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20324FA1E292E7C0092B6F1 /* Lucas Robert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucas Robert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20324FD1E292E7C0092B6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20324FF1E292E7C0092B6F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A20325021E292E7C0092B6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A20325041E292E7C0092B6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20325071E292E7C0092B6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A20325091E292E7C0092B6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A203250E1E292E7C0092B6F1 /* Lucas RobertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucas RobertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20325121E292E7C0092B6F1 /* Lucas_RobertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucas_RobertTests.swift; sourceTree = "<group>"; };
+		A20325141E292E7C0092B6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20325191E292E7C0092B6F1 /* Lucas RobertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucas RobertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A203251D1E292E7C0092B6F1 /* Lucas_RobertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucas_RobertUITests.swift; sourceTree = "<group>"; };
+		A203251F1E292E7C0092B6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20324F71E292E7C0092B6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A203250B1E292E7C0092B6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20325161E292E7C0092B6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20324F11E292E7C0092B6F1 = {
+			isa = PBXGroup;
+			children = (
+				A20324FC1E292E7C0092B6F1 /* Lucas Robert */,
+				A20325111E292E7C0092B6F1 /* Lucas RobertTests */,
+				A203251C1E292E7C0092B6F1 /* Lucas RobertUITests */,
+				A20324FB1E292E7C0092B6F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20324FB1E292E7C0092B6F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20324FA1E292E7C0092B6F1 /* Lucas Robert.app */,
+				A203250E1E292E7C0092B6F1 /* Lucas RobertTests.xctest */,
+				A20325191E292E7C0092B6F1 /* Lucas RobertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A20324FC1E292E7C0092B6F1 /* Lucas Robert */ = {
+			isa = PBXGroup;
+			children = (
+				A20324FD1E292E7C0092B6F1 /* AppDelegate.swift */,
+				A20324FF1E292E7C0092B6F1 /* ViewController.swift */,
+				A20325011E292E7C0092B6F1 /* Main.storyboard */,
+				A20325041E292E7C0092B6F1 /* Assets.xcassets */,
+				A20325061E292E7C0092B6F1 /* LaunchScreen.storyboard */,
+				A20325091E292E7C0092B6F1 /* Info.plist */,
+			);
+			path = "Lucas Robert";
+			sourceTree = "<group>";
+		};
+		A20325111E292E7C0092B6F1 /* Lucas RobertTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20325121E292E7C0092B6F1 /* Lucas_RobertTests.swift */,
+				A20325141E292E7C0092B6F1 /* Info.plist */,
+			);
+			path = "Lucas RobertTests";
+			sourceTree = "<group>";
+		};
+		A203251C1E292E7C0092B6F1 /* Lucas RobertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A203251D1E292E7C0092B6F1 /* Lucas_RobertUITests.swift */,
+				A203251F1E292E7C0092B6F1 /* Info.plist */,
+			);
+			path = "Lucas RobertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20324F91E292E7C0092B6F1 /* Lucas Robert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20325221E292E7C0092B6F1 /* Build configuration list for PBXNativeTarget "Lucas Robert" */;
+			buildPhases = (
+				A20324F61E292E7C0092B6F1 /* Sources */,
+				A20324F71E292E7C0092B6F1 /* Frameworks */,
+				A20324F81E292E7C0092B6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lucas Robert";
+			productName = "Lucas Robert";
+			productReference = A20324FA1E292E7C0092B6F1 /* Lucas Robert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A203250D1E292E7C0092B6F1 /* Lucas RobertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20325251E292E7C0092B6F1 /* Build configuration list for PBXNativeTarget "Lucas RobertTests" */;
+			buildPhases = (
+				A203250A1E292E7C0092B6F1 /* Sources */,
+				A203250B1E292E7C0092B6F1 /* Frameworks */,
+				A203250C1E292E7C0092B6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20325101E292E7C0092B6F1 /* PBXTargetDependency */,
+			);
+			name = "Lucas RobertTests";
+			productName = "Lucas RobertTests";
+			productReference = A203250E1E292E7C0092B6F1 /* Lucas RobertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A20325181E292E7C0092B6F1 /* Lucas RobertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20325281E292E7C0092B6F1 /* Build configuration list for PBXNativeTarget "Lucas RobertUITests" */;
+			buildPhases = (
+				A20325151E292E7C0092B6F1 /* Sources */,
+				A20325161E292E7C0092B6F1 /* Frameworks */,
+				A20325171E292E7C0092B6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A203251B1E292E7C0092B6F1 /* PBXTargetDependency */,
+			);
+			name = "Lucas RobertUITests";
+			productName = "Lucas RobertUITests";
+			productReference = A20325191E292E7C0092B6F1 /* Lucas RobertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20324F21E292E7C0092B6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "CBM Web Development";
+				TargetAttributes = {
+					A20324F91E292E7C0092B6F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B76P79Q988;
+						ProvisioningStyle = Automatic;
+					};
+					A203250D1E292E7C0092B6F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B76P79Q988;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A20324F91E292E7C0092B6F1;
+					};
+					A20325181E292E7C0092B6F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B76P79Q988;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A20324F91E292E7C0092B6F1;
+					};
+				};
+			};
+			buildConfigurationList = A20324F51E292E7C0092B6F1 /* Build configuration list for PBXProject "Lucas Robert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A20324F11E292E7C0092B6F1;
+			productRefGroup = A20324FB1E292E7C0092B6F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A20324F91E292E7C0092B6F1 /* Lucas Robert */,
+				A203250D1E292E7C0092B6F1 /* Lucas RobertTests */,
+				A20325181E292E7C0092B6F1 /* Lucas RobertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A20324F81E292E7C0092B6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20325081E292E7C0092B6F1 /* LaunchScreen.storyboard in Resources */,
+				A20325051E292E7C0092B6F1 /* Assets.xcassets in Resources */,
+				A20325031E292E7C0092B6F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A203250C1E292E7C0092B6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20325171E292E7C0092B6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20324F61E292E7C0092B6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20325001E292E7C0092B6F1 /* ViewController.swift in Sources */,
+				A20324FE1E292E7C0092B6F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A203250A1E292E7C0092B6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20325131E292E7C0092B6F1 /* Lucas_RobertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20325151E292E7C0092B6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A203251E1E292E7C0092B6F1 /* Lucas_RobertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A20325101E292E7C0092B6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20324F91E292E7C0092B6F1 /* Lucas Robert */;
+			targetProxy = A203250F1E292E7C0092B6F1 /* PBXContainerItemProxy */;
+		};
+		A203251B1E292E7C0092B6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20324F91E292E7C0092B6F1 /* Lucas Robert */;
+			targetProxy = A203251A1E292E7C0092B6F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A20325011E292E7C0092B6F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20325021E292E7C0092B6F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A20325061E292E7C0092B6F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20325071E292E7C0092B6F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A20325201E292E7C0092B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A20325211E292E7C0092B6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20325231E292E7C0092B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B76P79Q988;
+				INFOPLIST_FILE = "Lucas Robert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Lucas-Robert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A20325241E292E7C0092B6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B76P79Q988;
+				INFOPLIST_FILE = "Lucas Robert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Lucas-Robert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A20325261E292E7C0092B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B76P79Q988;
+				INFOPLIST_FILE = "Lucas RobertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Lucas-RobertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucas Robert.app/Lucas Robert";
+			};
+			name = Debug;
+		};
+		A20325271E292E7C0092B6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B76P79Q988;
+				INFOPLIST_FILE = "Lucas RobertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Lucas-RobertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucas Robert.app/Lucas Robert";
+			};
+			name = Release;
+		};
+		A20325291E292E7C0092B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B76P79Q988;
+				INFOPLIST_FILE = "Lucas RobertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Lucas-RobertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lucas Robert";
+			};
+			name = Debug;
+		};
+		A203252A1E292E7C0092B6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B76P79Q988;
+				INFOPLIST_FILE = "Lucas RobertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Lucas-RobertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lucas Robert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20324F51E292E7C0092B6F1 /* Build configuration list for PBXProject "Lucas Robert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20325201E292E7C0092B6F1 /* Debug */,
+				A20325211E292E7C0092B6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20325221E292E7C0092B6F1 /* Build configuration list for PBXNativeTarget "Lucas Robert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20325231E292E7C0092B6F1 /* Debug */,
+				A20325241E292E7C0092B6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A20325251E292E7C0092B6F1 /* Build configuration list for PBXNativeTarget "Lucas RobertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20325261E292E7C0092B6F1 /* Debug */,
+				A20325271E292E7C0092B6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A20325281E292E7C0092B6F1 /* Build configuration list for PBXNativeTarget "Lucas RobertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20325291E292E7C0092B6F1 /* Debug */,
+				A203252A1E292E7C0092B6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A20324F21E292E7C0092B6F1 /* Project object */;
+}

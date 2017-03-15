@@ -1,0 +1,23 @@
+.jumbotron{
+    padding:0px !important;
+}
+
+.jumbotron img{
+    height:600px;
+}
+
+.products-link{
+    text-decoration: none;
+}
+
+.odd-row{
+    width:100%;
+    background:rgba(211,211,211,0.5);
+}
+
+.subheading{
+    color:rgba(211,211,211,1.0);
+}
+
+
+

@@ -1,0 +1,16 @@
+.product-sidebar-left li{
+	list-style-type: none;
+}
+
+ul.product_list_widget{
+	list-style-type:none !important;
+}
+
+.woocommerce-Price-amount{
+	display:none;
+}
+
+.product-title{
+	text-align:center;
+	width:100%;
+}

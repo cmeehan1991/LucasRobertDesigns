@@ -1,0 +1,66 @@
+#vendor-search{
+	outline:none;
+	border:none;
+	border-bottom:1px solid gray;
+	width:250px;
+}
+
+#vendor-search:focus{
+	border-bottom:2px solid black
+}
+
+.submit{
+	border:1px solid #000000;
+	border-radius: 2px;
+	background:transparent;
+}
+
+.submit:hover{
+	background-color: lightgray;
+}
+
+.list{
+	list-style: none;
+}
+
+.list li{
+	margin-bottom: 5px;
+}
+
+.vendor{
+	font-weight: bold;
+}
+
+.vendor-separator{
+	max-width:50px;
+}
+
+.pagination{
+	text-align: center !important;
+}
+
+.pagination li a{
+	background: white !important;
+	border-radius:0px !important;
+	border:none;
+	color:#000000;
+}
+
+.pagination .active a{
+	background: white !important;
+	border-radius:0px !important;
+	border:none;
+	text-decoration: underline;
+	color:#000000;
+	font-weight: bold;
+}
+
+.pagination .active a:hover, .pagination li a:hover{
+	border-bottom:1px solid #000000;
+	border-radius:0px !important;
+	color:#000000;
+}
+
+.pagination .active{
+	border:none !important;
+}

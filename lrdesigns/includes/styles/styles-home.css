@@ -1,0 +1,101 @@
+.jumbotron{
+    padding:0px !important;
+}
+
+.jumbotron img{
+    height:600px;
+}
+
+.products-link{
+    text-decoration: none;
+}
+
+.odd-row{
+    width:100%;
+    background:rgba(211,211,211,0.5);
+}
+
+.subheading{
+    color:rgba(211,211,211,1.0);
+}
+
+.carousel{
+	border:none !important;
+}
+
+.carousel-inner{
+	border:none !important;
+}
+
+.item img{
+	max-height:400px;
+	width:100% !important;
+}
+
+
+
+#shop-section{
+	padding-top:10px;
+}
+
+#shop-section div a h3{
+	color:#000000;
+}
+
+/**
+	Hero banner home page
+*/
+
+.hero{
+	position:relative;
+	top:-50px;;
+	width:100%;
+}
+
+.hero-title{
+	font-size:36px;
+	position:absolute;
+	top:75%;
+	width:100%;
+	text-align:left;
+}
+
+.hero-title__first-letter{
+	font-size: 72px !important;
+	font-family: Great Vibes;
+}
+
+.hero-link{
+	position:absolute;
+	top:90%;
+	width:100%;
+	text-align:center;
+	font-size:4em;
+	cursor: pointer;
+}
+
+.hero-link:hover{
+	color:#ffffff;
+}
+
+
+@media(max-width:768px){
+	.hero-title{
+		display:none;
+		top:75%;
+		font-size:18px;
+	}
+	
+	.hero-title__first-letter{
+	font-size: 36px !important;
+	font-family: Great Vibes;
+}
+
+	
+	.hero-link{
+		font-size:4em;
+		
+	}
+}
+
+

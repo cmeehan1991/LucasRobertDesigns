@@ -1,0 +1,110 @@
+body{
+    padding-top:50px;
+}
+
+html *{
+    font-family:"Verdana Italics";
+}
+
+.row{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position:fixed;
+  top:50%;
+  bottom:50%;
+  left:50%;
+  right:50%;
+  z-index: 100;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@font-face{
+	font-family:"Great Vibes";
+	src: url('http://www.lucasrobertdesigns.com/wp-content/themes/lrdesigns/includes/resources/fonts/GreatVibes-Regular.otf');
+}
+
+@font-face{
+	font-family:"Caligraphy";
+	src:url('http://www.lucasrobertdesigns.com/wp-content/themes/lrdesigns/includes/resources/fonts/broken_planew.ttf');
+}
+
+@font-face{
+	font-family:"Anglican";
+	src:url('http://www.lucasrobertdesigns.com/wp-content/themes/lrdesigns/includes/resources/fonts/AnglicanText.ttf');
+}
+
+@font-face{
+	font-family:"Andrade-Swash";
+	src:url('http://www.lucasrobertdesigns.com/wp-content/themes/lrdesigns/includes/resources/fonts/Andrade-Swash.ttf');
+}
+
+@font-face{
+	font-family:"Lustria";
+	src:url('http://www.lucasrobertdesigns.com/wp-content/themes/lrdesigns/includes/resources/fonts/Andrade-Swash.ttf');
+}
+
+.footer{
+    background:#000000;
+    color:#ffffff;
+    width:100%;
+    min-height:100px;
+}
+
+.submit-button{
+    background:none;
+    border:none;
+}
+
+.content-main{
+	/*max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;*/
+	background-color:#ffffff !important;
+}
+
+h1.page-header__newsletter{
+	font-family:"Great Vibes";
+	font-size:5em;
+}
+
+
+.section-headings{
+	/*font-family:Anglican;*/
+	text-align: center;
+	text-transform: uppercase;
+	font-size:28px;
+}
+
+.section-headings__first-letter{
+	font-family:"Great Vibes";
+	font-size:72px;
+}
+
+@media(max-width:780px){
+	.section-headings{
+		font-size:24px;
+	}
+
+	.section-headings__first-letter{
+		font-size:50px;
+	}
+}

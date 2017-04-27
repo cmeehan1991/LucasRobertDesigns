@@ -1,0 +1,83 @@
+
+#account-navigation{
+    width:fit-content;
+}
+
+#account-navigation h3{
+    width:100%;
+    background:#000000;
+    color:#ffffff;
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.woocommerce-MyAccount-navigation ul{
+    padding-left:0px !important;
+}
+
+.woocommerce-MyAccount-navigation ul li{
+    list-style: none;
+    display:block;
+    padding-top:10px;
+}
+
+.woocommerce-MyAccount-navigation ul li:first-of-type{
+    padding-top:0px;
+}
+
+.woocommerce-MyAccount-navigation ul li a{
+    color:#000000;
+    font-size:1.25em;
+}
+
+.dashboard-navigation__main{
+	border:1px solid #000000;
+	border-radius: 5px;
+	padding:5px;
+	text-align: center;
+	margin-top:5px;
+}
+
+.dashboard-navigation__main a{
+	font-size:2em;
+	color:#000000;
+	cursor: pointer;
+}
+.dashboard-navigation__main i{
+	font-size:2em !important;
+	padding:5px;
+}
+
+.account-summary{
+	border:1px solid #000000;
+	background-color:lightgray;
+	width:100%;
+}
+
+.account-summary__recent-order-count p{
+	text-align: center;
+}
+
+.account-summary__recent-order-count p strong{
+	font-size:2em;
+}
+
+#country-select, #state-select{
+	width:150px;
+}
+
+.button__save-address{
+	background-color:transparent;
+	border:1px solid #000000;
+	border-radius: 5px;
+}
+
+.button__save-address:hover{
+	background-color:rgba(0,0,0,0.5);
+	color:#ffffff;
+}
+
+
+
+

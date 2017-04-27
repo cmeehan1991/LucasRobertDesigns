@@ -1,0 +1,165 @@
+.product{
+    display:block;
+}
+
+.product-link{
+    color:#000000;
+    display:block;
+}
+
+
+#product-image .thumbnails .zoom img{
+    width:380px !important;
+    height:380px !important;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid black;
+}
+
+.images{
+	list-style-type: none;
+}
+
+ul.images li{
+	padding:5px;
+	display:inline-block;
+}
+
+ul.images li img{
+	width:75px;
+	height:75px;
+}
+.wp-post-image{
+	width:100%;
+	height:100%;
+}
+.product-information{
+    transform: translateY(50%);
+}
+
+.product-information__msrp{
+    font-size:2em;
+}
+
+.product-information tr td{
+    padding:5px;
+}
+
+.product-information tr:first-of-type td{
+    border-collapse: collapse;
+    border-bottom: 1px solid #000000;
+}
+
+.related .products li a img{
+    width:50%; 
+    height:50%;
+}
+
+.related .products li a h3{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:1.25em;
+    width:50%;
+}
+
+.related .products li a span{
+    margin-top:0px;
+}
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+	background-color: #ddd;
+	color:#000000;
+	}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+	border:1px solid #000000;
+	background-color: #ffffff;
+	color:#000000;
+}
+
+.tablinks.active a{
+	color:#000000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.stars span a{
+    padding:5px;
+}
+
+.comment{
+    width:100% !important;
+}
+
+#product-tabs{
+	margin-bottom: 25px;
+}
+
+h2.woocommerce-loop-product__title{
+	font-size:18px;
+	text-align: center;
+}
+
+a.woocommerce-LoopProduct-link{
+	color:#000000;
+}
+
+div.cross-sells ul.products li{
+	display:inline-block;
+	padding:5px;
+}
+div.cross-sells ul.products li a img.attachment-shop_catalog{
+	width:100px !important;
+	position:relative;
+	left:25%;
+	right:25%;
+}
+
+

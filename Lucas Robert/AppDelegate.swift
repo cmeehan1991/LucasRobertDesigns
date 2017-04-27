@@ -9,13 +9,52 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UserStatusProtocol {
 
+    let defaults = UserDefaults.standard
+    var userStatusModel = UserStatusModel()
     var window: UIWindow?
+    var centerContainer: MMDrawerController!
+    
 
+    func itemsDownloaded(status: Bool, userID: String) {
+        self.defaults.set(status, forKey: "IS_LOGGED_IN")
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Check if the user is logged in online first
+        self.userStatusModel.delegate = self
+        self.userStatusModel.downloadItems()
+        
+        _ = self.window!.rootViewController
+        
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = mainStoryboard.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+        let centerViewController = mainStoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        let navigationViewController = mainStoryboard.instantiateViewController(withIdentifier: "NavigationDrawerViewController") as! NavigationDrawerViewController
+        
+        let loginPage = UINavigationController(rootViewController: loginViewController)
+        let navigationPage = UINavigationController(rootViewController: navigationViewController)
+        let mainPage = UINavigationController(rootViewController: centerViewController)
+        
+        if defaults.bool(forKey: "IS_LOGGED_IN") == true{
+            centerContainer = MMDrawerController(center: mainPage, leftDrawerViewController:navigationPage)
+            centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView
+            centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
+
+            window!.rootViewController = centerContainer
+        }else{
+            centerContainer = MMDrawerController(center: loginPage, leftDrawerViewController:nil)
+            centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView
+            centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
+            window!.rootViewController = centerContainer
+        }
+        window!.makeKeyAndVisible()
+        
+        // Enter PayPal credentials
+        PayPalMobile.initializeWithClientIds(forEnvironments: [PayPalEnvironmentSandbox: "AZ6QhKqZWLgdu23raOjVbNtzgnL05c4q6zQCFgtlt-YePofxepGXdemjs8ngQbJmQyHoTwzZIogolPd1"])
         return true
     }
 
